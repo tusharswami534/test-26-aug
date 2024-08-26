@@ -1,0 +1,181 @@
+@import url(https://db.onlinewebfonts.com/c/b596fe7f763c7633f489a1acdbb13c70?family=Maison+Neue+Demi);
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Maison Neue", sans-serif;
+}
+
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bg-img {
+    background-image: url(/assets/images/png/Store_img.png);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.bg-img-2 {
+    background-image: url(/assets/images/png/Helping-img.png);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.bg-img-3 {
+    background-image: url(/assets/images/png/a-person-with-tab.png);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+.row-gap-24{
+    row-gap: 24px   ;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.pt-202 {
+    padding-top: 202px;
+}
+
+.white-box {
+    max-width: 382px;
+    width: 100%;
+    background-color: white;
+    min-height: 320px;
+    margin: auto;
+
+    border-radius: 25px;
+    padding: 35px 28px 29px 29px;
+    margin-bottom: 29px;
+}
+
+.whiet-box-heading {
+    color: #00AFB5;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.whitebox-sm-headign {
+    font-size: var(--fs-md);
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.whitebox-info {
+    font-family: Maison Neue;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.linehight130 {
+    line-height: 130%;
+}
+
+.linehight100 {
+    line-height: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.min-h-672 {
+    min-height: 672px;
+}
+
+.gap-6 {
+    gap: 6px;
+}
+
+.mt-81 {
+    margin-top: 81px;
+}
+
+.card-footer-text {
+    font-family: Maison Neue;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.max-w-440{
+    max-width: 440px;
+}
+
+
+
+@media (max-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .px-sm-12 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}

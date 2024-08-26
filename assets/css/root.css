@@ -1,0 +1,13 @@
+:root {
+    /* font size  */
+    --fs-sm: 15px;
+    --fs-md: 30px;
+
+    
+
+    @media (max-width:992px) {
+        --fs-sm: 12px;
+        --fs-md: 26px;
+    }
+    
+}
